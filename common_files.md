@@ -16,3 +16,6 @@ For for SQL Alchemy pip install flask-sqlalchemy
 - Initialize python `python`
 - Import db from directory `from filename import db`
 - Init DB `db.create_all()`
+
+## Open zsh
+- vi ~/.zshrc
