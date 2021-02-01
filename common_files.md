@@ -17,5 +17,11 @@ For for SQL Alchemy pip install flask-sqlalchemy
 - Import db from directory `from filename import db`
 - Init DB `db.create_all()`
 
-## Open zsh
+## Oh My Zsh short cuts
+### 1. Open zsh
 - vi ~/.zshrc
+
+## Turn on Spelling Corrections for ZSH
+### 2. setopt
+- `setopt correct` turns on corrections
+- `unsetopt correct` turns off corrections 
