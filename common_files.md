@@ -25,3 +25,13 @@ For for SQL Alchemy pip install flask-sqlalchemy
 ### 2. setopt
 - `setopt correct` turns on corrections
 - `unsetopt correct` turns off corrections 
+
+## Add/Remove Virtual Environments from Jupyter Notebooks
+### 1. Add virtual env (venv)
+- activate venv
+- install ipykernel `python -m ipykernel install --user --name=venv`
+This should print the following: Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv
+
+### 2. Uninstall the kernel
+- List available kernels with `jupyter kernelspec list`
+- Uninstall kernel with `jupyter kernelspec uninstall myenv`
