@@ -32,7 +32,7 @@ For for SQL Alchemy pip install flask-sqlalchemy
 - ensure ipykernel is installed `pip install --user ipykernel`
 - set venv through this code `python -m ipykernel install --name=venv`
 - This should print the following: 
--- `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`
+`Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`
 
 ### 2. Uninstall the kernel
 - List available kernels with `jupyter kernelspec list`
