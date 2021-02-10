@@ -29,8 +29,7 @@ For for SQL Alchemy pip install flask-sqlalchemy
 ## Add/Remove Virtual Environments from Jupyter Notebooks
 ### 1. Add virtual env (venv)
 - activate venv
-- ensure ipykernel is installed `pip install --user ipykernel`
-- set venv through this code `python -m ipykernel install --user --name=<my_env_name>`
+- set venv through this code `ipython kernel install --user --name=<venv name?`
 - This should print the following: 
 `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`
 
