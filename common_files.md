@@ -37,3 +37,6 @@ To get this to work, a lot of the time I have had to `pip install jupyter` itsel
 ### 2. Uninstall the kernel
 - List available kernels with `jupyter kernelspec list`
 - Uninstall kernel with `jupyter kernelspec uninstall myenv`
+
+## Random stuff organize later
+- use `touch something.py` to create an empty file in the command line. 
