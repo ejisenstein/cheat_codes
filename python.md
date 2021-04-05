@@ -4,3 +4,8 @@
 - remove versions trash ~/.pyenv/versions/x.x.x
 - or uninstall `pyenv uninstall x.x.x`
 - Check versions `pyenv versions`
+
+## Create requirements file 
+- Activate virtual environment
+- pip freeze > requirements.txt
+
